@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(252, 241, 249, 0.925);
+  color: rgb(85, 76, 76);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.title{
+  color: rgb(43, 40, 40);
+  font-weight: 600;
+}
+
+.section-title{
+  font-size: 22px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main{
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main__title{
+  padding-top: 30px;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main__inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__img-box{
+  margin-right: 40px;
+}
+
+.main__img{
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.main__info{
+  width: 50%;
+}
+
+.main__info-box{
+  margin-bottom: 10px;
+}
+
+.main__info-title{
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+
+.goals__list{
+  width: 80%;
+  margin-inline: auto;
+}
+
+.goals__list-item{
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+
+.learning__box{ 
+  width: 50%;
+  margin-inline: auto;
+}
+
+.learning__item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.courses__table{
+  margin-inline: auto;
+  width: 80%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 16px;
+}
+
+.courses__table th{
+  border-bottom: 2px solid rgb(43, 40, 40);
+  padding-bottom: 10px;
+}
+
+.courses__table tr{
+  margin-bottom: 10px;
+}
+
+.main__title,
+.contacts-container,
+.learning-container{
+  background-color: rgba(245, 183, 224, 0.575);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contacts__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacts__item a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts__item-img{
+  width: 55px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.goals,
+.learning,
+.courses,
+.contacts{
+  margin-bottom: 50px;
+}
